@@ -8,8 +8,10 @@ class SearchBar extends React.Component{
 
     state = {term: ""};
 
-    onFormSubmit(e){
+    //arrow function will automatically ensure that value of this is equal to our searchbar
+    onFormSubmit = (e) => {
         e.preventDefault();
+        this.props.clickMeWhenUserSubmit(this.state.term);
     }
 
     render(){
