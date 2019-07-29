@@ -7,7 +7,8 @@
 //here is an example of calling child to parent (searchBar and app.js)
 //integration with unsplash API to get list of images with specific keyword
 //using axios to get data
-
+//using away and async
+//key props for each element of items
 
 
 import React from 'react';
