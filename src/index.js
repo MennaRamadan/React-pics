@@ -9,6 +9,11 @@
 //using axios to get data
 //using away and async
 //key props for each element of items
+//display grid
+//accessing html elements in react using ref
+//eventHandler
+//to be alble to make child communicate with parent we pass callback from parent to child and child will call it
+//every time we need to render list we will use .map function
 
 
 import React from 'react';
